@@ -4,7 +4,7 @@ export function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-white border-bottom box-shadow">
       <div className="container">
-        <Link className="navbar-brand" href="/">
+        <Link className="navbar-brand" href="/home">
           <img src="./logo1.png" alt="...." width="50" className="me-2" />
           VJ AND RPG SHOPPY
         </Link>
