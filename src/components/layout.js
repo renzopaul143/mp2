@@ -48,7 +48,8 @@ export function Navbar() {
 
           <ul className="navbar-nav">
             <li className="nav-item dropdown">
-              <a
+              {/* //eslint-disable-next-line */}
+              <Link
                 className="nav-link dropdown-toggle text-dark"
                 to=""
                 role="button"
@@ -56,7 +57,7 @@ export function Navbar() {
                 aria-expanded="false"
               >
                 Admin
-              </a>
+              </Link>
               <ul className="dropdown-menu">
                 <li>
                   <Link className="dropdown-item" to="/admin/products">
