@@ -1,4 +1,5 @@
 import "./Footer.css";
+import { Link } from "react-router-dom";
 export default function Createproduct() {
   return (
     <div className="main-footer1">
@@ -55,9 +56,9 @@ export default function Createproduct() {
 
               <div className="row">
                 <div className="offset-sm-4 col-sm-4 d-grid">
-                  <button type="submit" className="btn btn-primary">
+                  <Link className="btn btn-primary me-1" to="/" role="button">
                     Send
-                  </button>
+                  </Link>
                 </div>
               </div>
             </form>
