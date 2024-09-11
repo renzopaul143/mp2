@@ -59,12 +59,7 @@ export default function Profile() {
                 </td>
 
                 <td style={{ width: "10px", whiteSpace: "nowrap" }}>
-                  <a
-                    className="btn btn-primary btn-sm me-1"
-                    href="/admin/products/edit/"
-                  >
-                    Edit
-                  </a>
+                  <Link className="btn btn-primary btn-sm me-1">Edit</Link>
 
                   <button type="button" className="btn btn-danger btn-sm">
                     Delete
