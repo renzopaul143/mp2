@@ -71,13 +71,12 @@ export default function Createproduct() {
 
             <div className="row">
               <div className="offset-sm-4 col-sm-4 d-grid">
-                <button type="submit" className="btn btn-primary">
+                <Link className="btn btn-primary" role="button ">
                   Submit
-                </button>
+                </Link>
               </div>
               <div className="col-sm-4 d-grid">
                 <Link className="btn btn-secondary" role="button">
-                  {" "}
                   Cancel
                 </Link>
               </div>
