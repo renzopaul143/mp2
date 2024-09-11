@@ -56,7 +56,11 @@ export default function Createproduct() {
 
               <div className="row">
                 <div className="offset-sm-4 col-sm-4 d-grid">
-                  <Link className="btn btn-primary me-1" to="/" role="button">
+                  <Link
+                    className="btn btn-primary me-1"
+                    to="/contact"
+                    role="button"
+                  >
                     Send
                   </Link>
                 </div>

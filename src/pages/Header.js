@@ -14,7 +14,7 @@ export default function Home() {
           <Card>
             <Card.Body>
               <Card.Title>TOTAL EARNINGS</Card.Title>
-              <Card.Title>$63,448.78</Card.Title>
+              <Card.Title>PHP 63,448.78</Card.Title>
               <ProgressBar animated now={45} />
             </Card.Body>
             <Card.Footer>

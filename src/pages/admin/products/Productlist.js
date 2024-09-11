@@ -54,7 +54,10 @@ export default function Productlist() {
                 <td>{item.price} PHP</td>
 
                 <td style={{ width: "10px", whiteSpace: "nowrap" }}>
-                  <Link className="btn btn-primary btn-sm me-1" to="/">
+                  <Link
+                    className="btn btn-primary btn-sm me-1"
+                    to="/admin/products"
+                  >
                     Edit
                   </Link>
                   <button type="button" className="btn btn-danger btn-sm">

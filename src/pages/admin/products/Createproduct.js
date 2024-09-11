@@ -76,11 +76,7 @@ export default function Createproduct() {
                 </button>
               </div>
               <div className="col-sm-4 d-grid">
-                <Link
-                  className="btn btn-secondary"
-                  to="/admin/products/create"
-                  role="button"
-                >
+                <Link className="btn btn-secondary" role="button">
                   {" "}
                   Cancel
                 </Link>
